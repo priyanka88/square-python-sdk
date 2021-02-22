@@ -4,6 +4,7 @@ from square.configuration import Configuration
 
 client = Client(
     access_token='AccessToken',
+    environment='sandbox'
 )
 
 customers_api = client.customers
